@@ -8,10 +8,12 @@ import com.shop.cafe.dto.Member;
 
 @Service
 public class MemberService {
-
+	
 	@Autowired
 	MemberDao memberDao;
+	
 	public void insertMember(Member m) throws Exception {
 		memberDao.insertMember(m);
 	}
+
 }
