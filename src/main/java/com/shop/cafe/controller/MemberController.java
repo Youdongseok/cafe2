@@ -29,6 +29,7 @@ public class MemberController {
 			responseData.put("msg",e.getMessage());
 		}
 		
+		
 		return responseData;
 		
 	}
